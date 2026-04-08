@@ -1,2 +1,24 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Textures and images
+git lfs track "*.psd" "*.png" "*.jpg" "*.jpeg" "*.gif" "*.bmp" "*.tga" "*.tif" "*.tiff" "*.exr" "*.hdr"
+
+# Audio
+git lfs track "*.wav" "*.mp3" "*.ogg" "*.aif" "*.aiff"
+
+# 3D models
+git lfs track "*.fbx" "*.obj" "*.blend" "*.ma" "*.mb" "*.max" "*.dae"
+
+# Video
+git lfs track "*.mp4" "*.mov" "*.avi" "*.webm"
+
+# Fonts
+git lfs track "*.ttf" "*.otf"
+
+# Unity serialized assets
+git lfs track "*.asset" "*.prefab" "*.unity" "*.mat" "*.anim"
+git lfs track "*.controller" "*.overrideController"
+git lfs track "*.physicMaterial" "*.physicsMaterial2D"
+git lfs track "*.lighting" "*.shadergraph" "*.shadersubgraph"
+git lfs track "*.renderTexture" "*.terrainlayer" "*.mixer" "*.mask" "*.cubemap"
+
+# Native plugins
+git lfs track "*.dll" "*.so" "*.dylib" "*.a"
