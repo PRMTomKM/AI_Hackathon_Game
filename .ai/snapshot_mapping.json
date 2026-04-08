@@ -5,6 +5,12 @@
       "conversation_id": "80c148d8-5b4c-43a1-917d-9c3578d23518",
       "content": "Build me the best game ever",
       "snapshot_message_type": 0
+    },
+    {
+      "message_id": "INT_2",
+      "conversation_id": "80c148d8-5b4c-43a1-917d-9c3578d23518",
+      "content": "How do I set up git inside unity",
+      "snapshot_message_type": 0
     }
   ]
 }
